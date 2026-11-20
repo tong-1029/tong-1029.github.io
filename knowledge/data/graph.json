@@ -1,0 +1,163 @@
+{
+  "branches": [
+    {
+      "description": "用静态网站练习本地预览。",
+      "id": "web-basics",
+      "parent": null,
+      "title": "网页与部署"
+    },
+    {
+      "description": "Agent 的概念、运行时与工具组织。",
+      "id": "agents",
+      "parent": null,
+      "title": "Agent 系统与工程"
+    },
+    {
+      "description": "模型、工具与环境之间的交互链路与操作方式。",
+      "id": "agent-runtime",
+      "parent": "agents",
+      "title": "运行时与 Harness"
+    },
+    {
+      "description": "终端工具、网络代理与账号环境的故障排查。",
+      "id": "dev-environment",
+      "parent": null,
+      "title": "开发环境与账号"
+    },
+    {
+      "description": "把真实经历整理成可核实的书面材料。",
+      "id": "practice-writing",
+      "parent": null,
+      "title": "实践与书面表达"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-09-13",
+      "entries": [
+        {
+          "kind": "learn",
+          "note": "local-web-preview",
+          "takeaway": "启动服务前先确认网站根目录。"
+        }
+      ],
+      "summary": "验证静态网页的本地预览。"
+    },
+    {
+      "date": "2026-11-19",
+      "entries": [
+        {
+          "kind": "learn",
+          "note": "agent-basics",
+          "takeaway": "Agent 不只是问答，而是能规划并调用工具完成任务的系统。"
+        },
+        {
+          "kind": "learn",
+          "note": "claude-code-run-modes",
+          "takeaway": "运行模式是在审批强度与自动化程度之间取舍，陌生目录先用需审批的模式。"
+        },
+        {
+          "kind": "learn",
+          "note": "dev-environment-troubleshooting",
+          "takeaway": "403 先查账户欠费；代理网关会让安全校验失败，账号问题按平台流程找回。"
+        },
+        {
+          "kind": "learn",
+          "note": "resume-experience-material",
+          "takeaway": "简历素材从具体经历里提炼角色、动作和结果，而不是堆形容词。"
+        }
+      ],
+      "summary": "从 Agent 概念走到终端工具实操与简历素材整理。"
+    }
+  ],
+  "demo": false,
+  "notes": [
+    {
+      "aliases": [
+        "AI Agent",
+        "智能体",
+        "Agent 概念"
+      ],
+      "branch": "agents",
+      "id": "agent-basics",
+      "memory": [
+        "Agent 的关键不是会回答，而是会规划并动手。",
+        "工具调用是 Agent 连接外部世界的接口。"
+      ],
+      "related": [
+        "claude-code-run-modes"
+      ],
+      "summary": "Agent 以大模型为决策核心，自主规划、调用工具并完成多步任务。",
+      "title": "Agent 基础认知"
+    },
+    {
+      "aliases": [
+        "Claude Code 运行模式",
+        "工作空间信任",
+        "权限审批"
+      ],
+      "branch": "agent-runtime",
+      "id": "claude-code-run-modes",
+      "memory": [
+        "信任确认决定工具能不能在这个目录动手。",
+        "自动化越高，审批越少，风险越大。"
+      ],
+      "related": [
+        "agent-basics",
+        "dev-environment-troubleshooting"
+      ],
+      "summary": "在终端使用 Claude Code 前要确认工作空间信任，并按风险选择审批强度。",
+      "title": "Claude Code 的工作空间信任与运行模式"
+    },
+    {
+      "aliases": [
+        "API 403",
+        "代理网关",
+        "账号找回"
+      ],
+      "branch": "dev-environment",
+      "id": "dev-environment-troubleshooting",
+      "memory": [
+        "403 先查余额与欠费状态。",
+        "代理会干扰校验通道，先判断网络环境。"
+      ],
+      "related": [
+        "claude-code-run-modes"
+      ],
+      "summary": "403 先查账户欠费，代理网关可能让安全校验失败，账号问题按平台流程找回。",
+      "title": "大模型接入的常见环境故障"
+    },
+    {
+      "aliases": [
+        "本地 HTTP 服务"
+      ],
+      "branch": "web-basics",
+      "id": "local-web-preview",
+      "memory": [
+        "先确认目录，再启动服务。",
+        "127.0.0.1 指向访问者自己的电脑。"
+      ],
+      "related": [],
+      "summary": "在网站根目录启动服务，从 Windows 浏览器访问。",
+      "title": "在 WSL 中预览本地网页"
+    },
+    {
+      "aliases": [
+        "简历素材",
+        "经历梳理",
+        "STAR 方法"
+      ],
+      "branch": "practice-writing",
+      "id": "resume-experience-material",
+      "memory": [
+        "一条经历至少写清角色、动作和结果。",
+        "用具体事实替代形容词。"
+      ],
+      "related": [],
+      "summary": "从学生工作、竞赛和志愿经历中提炼角色、动作与结果，写成可核实的书面素材。",
+      "title": "把经历整理成简历素材"
+    }
+  ],
+  "timezone": "Asia/Shanghai",
+  "version": 1
+}

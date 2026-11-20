@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "branches": [
+    {
+      "id": "web-basics",
+      "title": "网页与部署",
+      "parent": null,
+      "description": "用静态网站练习本地预览。"
+    },
+    {
+      "id": "agents",
+      "title": "Agent 系统与工程",
+      "parent": null,
+      "description": "Agent 的概念、运行时与工具组织。"
+    },
+    {
+      "id": "agent-runtime",
+      "title": "运行时与 Harness",
+      "parent": "agents",
+      "description": "模型、工具与环境之间的交互链路与操作方式。"
+    },
+    {
+      "id": "dev-environment",
+      "title": "开发环境与账号",
+      "parent": null,
+      "description": "终端工具、网络代理与账号环境的故障排查。"
+    },
+    {
+      "id": "practice-writing",
+      "title": "实践与书面表达",
+      "parent": null,
+      "description": "把真实经历整理成可核实的书面材料。"
+    }
+  ]
+}

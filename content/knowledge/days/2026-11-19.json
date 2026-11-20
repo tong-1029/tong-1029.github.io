@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-19",
+  "summary": "从 Agent 概念走到终端工具实操与简历素材整理。",
+  "entries": [
+    {
+      "note": "agent-basics",
+      "takeaway": "Agent 不只是问答，而是能规划并调用工具完成任务的系统。",
+      "kind": "learn"
+    },
+    {
+      "note": "claude-code-run-modes",
+      "takeaway": "运行模式是在审批强度与自动化程度之间取舍，陌生目录先用需审批的模式。",
+      "kind": "learn"
+    },
+    {
+      "note": "dev-environment-troubleshooting",
+      "takeaway": "403 先查账户欠费；代理网关会让安全校验失败，账号问题按平台流程找回。",
+      "kind": "learn"
+    },
+    {
+      "note": "resume-experience-material",
+      "takeaway": "简历素材从具体经历里提炼角色、动作和结果，而不是堆形容词。",
+      "kind": "learn"
+    }
+  ]
+}
